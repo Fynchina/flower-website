@@ -1,0 +1,53 @@
+body{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    margin:0;
+    padding:0;
+    min-width: 800px;
+}
+
+.container{
+    background-color:#1f2937;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header{
+    font-size: 24px;
+    color:#f9faf8;
+    padding-top: 12px;
+}
+
+ul{
+    list-style-type: none;
+    font-size:18px;
+    display: flex;
+    justify-content: space-between;
+    gap:16px; 
+}
+
+a{
+    color:#e5e7eb;
+    text-decoration: none;    
+}
+
+.website{
+    display: flex;
+}
+
+.flex-item{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero{
+    font-size:48px;
+    
+}
+
