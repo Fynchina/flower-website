@@ -1,6 +1,7 @@
 body{
     display:flex;
     flex-direction: column;
+    justify-content: center;
     flex:1;
     margin:0;
     padding:0;
@@ -15,6 +16,7 @@ body{
 .nav{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 80px;
 }
 
 .header{
@@ -38,6 +40,10 @@ a{
 
 .website{
     display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .flex-item{
@@ -50,11 +56,16 @@ a{
     font-size:48px;
     font-weight:bolder;
     color:#f9faf8;
+    padding-bottom: 0;
+    margin: 0;
+
 }
 
 .hero2{
     font-size:18px;
     color:#e5e7eb;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 button{
