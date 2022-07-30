@@ -48,7 +48,10 @@ a{
 .hero-items{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;    
+    width: 500px;
+    height: 350px;   
+    padding-left: 60px;
+    padding-right: 40px;
 }
 
 
@@ -88,3 +91,37 @@ button{
     max-height: 100%;
 }
 
+.rand-info{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    padding:8px;
+}
+
+#info{
+    display: flex;
+    height: 600px;
+    text-align: center;
+    align-items:flex-start;
+    justify-content: space-around;
+    align-content: center;
+    width: 100vh;
+   gap:32px;
+   padding-left: 280px;
+   padding-bottom: 10px;
+}
+
+.img{
+    flex: 0 2 100px;
+    justify-content: space-around;
+    align-items:flex-start;
+    align-content:space-between;
+    text-align: center;
+    gap:50px;
+}
+
+.img img{
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+}
