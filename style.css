@@ -40,11 +40,11 @@ a{
 .website{
     display: flex;
     flex-direction:row;
-    justify-content: space-around;
+    justify-content: center;
     flex-basis: 1;
     padding-left:60px;
     padding-right: 45px;
-    margin: 16px;
+    margin: auto;
 }
 
 .hero-items{
@@ -140,7 +140,7 @@ button{
 }
 
 .txt-items{
-    width: 700px;
+    width: 750px;
     height: auto;
     font-size: 30px;
     font-style: italic;
@@ -163,13 +163,45 @@ button{
 #action{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-self: center;
-    text-align: center;
+    justify-content:space-evenly;
     background-color:#3882f6;
     padding:auto;
-    margin:65px;
-   min-height: 130px;
-   width:1000px;
+    margin:80px;
+   min-height: 140px;
+   width: 1050px;
    border-radius: 8px;
 }
+
+.act-items{
+    display: flex;
+    flex-direction: column; 
+    text-align: start;
+    padding:16px;
+    }
+
+    .time{
+        font-size: 24px;
+        color: #f9faf8;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .note{
+        padding-top: 0;
+        color:#e5e7eb ;
+        margin-top: 0;
+    }
+
+    .sign{
+        border: 2px solid white;
+        margin-top: 45px;
+    }
+
+    footer{
+        text-align: center;
+        background-color: #1f2937;
+        color: #e5e7eb;
+        height: 40px;
+        padding: 34px;
+    }
