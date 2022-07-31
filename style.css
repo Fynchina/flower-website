@@ -132,22 +132,44 @@ button{
 
 .some-txt{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction:column;
     justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
-    height: 300px;
-    background-color: #e5e7eb;
+    height: 350px;
 }
 
 .txt-items{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 650px;
+    width: 700px;
     height: auto;
     font-size: 30px;
     font-style: italic;
+    color: #47494e;
+    padding-bottom:0;
+    margin-bottom: 0;
+}
+
+
+.side-note{
+    text-align: right;
+    align-items: flex-end;
+    font-size: 32px;
     color: #1f2937;
+    padding-left: 400px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#action{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    text-align: center;
+    background-color:#3882f6;
+    padding:auto;
+    margin:65px;
+   min-height: 130px;
+   width:1000px;
+   border-radius: 8px;
 }
